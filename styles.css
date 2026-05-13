@@ -105,13 +105,12 @@ h1, h2, h3, h4, h5, h6 {
 /* Styling for certain specific elements, like list items and links. */
 a { color: var(--links);  text-decoration: none; }
 a:hover { font-family: "EBG12-It"; }
-ul {
-    columns: 2;
-}
+
 li {
-    margin-top: 0.5em;
+    color: var(--body);
+    margin-top: 0.25em;
 }
-h1 + ul, h2 + ul, h3 + ul, h4 + ul, h5 + ul, h6 + ul, p + ul { list-style-type: none; }
+h1 + ul, h2 + ul, h3 + ul, h4 + ul, h5 + ul, h6 + ul, p + ul { list-style-type: ""; }
 
 /* Styling for footnotes */
 .footnote { font-family: "EBG08-Re"; }
