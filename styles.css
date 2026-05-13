@@ -1,0 +1,151 @@
+@import "css/catppuccin-frappe.css";
+@import "css/codehilite.css";
+
+/* Importing the fonts used throughout; a fallback is also imported from Google Fonts. */
+@font-face {
+    font-family: 'EBG12-Re';
+    src:  url( fonts/EBGaramond12-Regular.eot );
+    src:  url('fonts/EBGaramond12-Regular.ttf') format('truetype'),
+    url('fonts/EBGaramond12-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: "EBG08-Re";
+    src:  url( fonts/EBGaramond08-Regular.eot );
+    src:  url('fonts/EBGaramond08-Regular.ttf') format('truetype'),
+    url('fonts/EBGaramond08-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: "EBG12-SC";
+    src:  url( fonts/EBGaramond12-AllSC.eot );
+    src:  url('fonts/EBGaramond12-AllSC.ttf') format('truetype'),
+    url('fonts/EBGaramond12-SC.woff') format('woff');
+}
+@font-face {
+    font-family: "EBG12-It";
+    src:  url( fonts/EBGaramond12-Italic.eot );
+    src:  url('fonts/EBGaramond12-Italic.ttf') format('truetype'),
+    url('fonts/EBGaramond12-Italic.woff') format('woff');
+}
+@font-face {
+    font-family: "EBG08-It";
+    src:  url( fonts/EBGaramond08-Italic.eot );
+    src:  url('fonts/EBGaramond08-Italic.ttf') format('truetype'),
+    url('fonts/EBGaramond08-Italic.woff') format('woff');
+}
+@font-face {
+    font-family: "EBGInit";
+    src:	url( fonts/EBGaramond-Initials.eot );
+    src:	url('fonts/EBGaramond-Initials.ttf') format('truetype'),
+    url('fonts/EBGaramond-Initials.woff') format('woff');
+}
+
+/* Global colour variables. */
+:root {
+    --background-pane: #f9f1e5; /* #ffead2 #fdfcff #e0c9a6*/
+    --subtle: #3f0000; /* #5a3c4f #1b071d*/
+    --body: #3f0000; /* #5a3c4f #32111d #443032 #3f0000*/
+
+    --headings: #3f0000;
+    --accents: #3f0000;
+    --links: #004040;
+}
+
+/* Background and full body styling. */
+body {
+    background-color: var(--background-pane);
+    font-family: "EBG12-Re", "EB Garamond", serif;
+    font-size: 14pt;
+    line-height: 1.4em;
+    margin: 0 auto;
+    max-width: calc(min(65ch, round(down, 80%, 1ch)));
+    /* transform: translateX(-3em); */
+}
+
+/* Styling for the header and footer. */
+header { text-align: center; break-after: page; font-family: "EBG08-Re"; }
+footer { text-align: center; font-family: "EBG08-Re"; }
+
+
+/* Styling for regular body text. */
+p {
+    color: var(--body);
+    margin: 0;
+    break-inside: avoid;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+}
+p + p {
+    text-indent: 2ch;
+}
+h1 + p:first-letter, h2 + p:first-letter {
+    float: left;
+    font-size: 5em;
+    text-indent: 0;
+    padding-right: 3px;
+    font-family: "EBGInit", "EBG12-SC";
+    font-style: normal;
+}
+h1 + p:first-line, h2 + p:first-line {
+    font-family: "EBG12-SC";
+    letter-spacing: 0.05em;
+}
+i { font-style: normal; font-family: "EBG12-It"; }
+em { font-style: normal; font-family: "EBG12-It"; }
+
+/* Styling for headings. */
+h1 {
+    font-family: "EBG12-It";
+}
+h1, h2, h3, h4, h5, h6 {
+    color: var(--headings);
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+/* Styling for certain specific elements, like list items and links. */
+a { color: var(--links);  text-decoration: none; }
+a:hover { font-family: "EBG12-It"; }
+ul {
+    columns: 2;
+}
+li {
+    margin-top: 0.5em;
+}
+h1 + ul, h2 + ul, h3 + ul, h4 + ul, h5 + ul, h6 + ul, p + ul { list-style-type: none; }
+
+/* Styling for footnotes */
+.footnote { font-family: "EBG08-Re"; }
+.footnote hr { color: var(--body); }
+.footnote li p { margin-left: 0em; }
+.footnote li::marker { color: var(--body); }
+
+
+/* A few custom class styles. */
+.koraki { color: cornflowerblue; }
+.subtle { color: var(--subtle); }
+
+/* Code block changes */
+code:not(.codehilite code) { /* inline */
+    background-color: var(--background-pane);
+    font-size: 0.9rem;
+    padding: 0.25em;
+    padding-top: 0.07em;
+    padding-bottom: 0.07em;
+    border-style: none;
+    border-radius: 0.25em;
+    border-width: 0.1em;
+    border-color: var(--body);
+    color: var(--links);
+}
+
+.codehilite {
+    margin: 1em auto;
+    max-width: 80%;
+    overflow-x: auto;
+    border-style: solid;
+    border-radius: 0.5em;
+    border-width: 0.15em;
+    border-color: var(--body);
+    font-size: 0.9rem;
+}
+

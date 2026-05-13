@@ -1,0 +1,34 @@
+:root {
+    --code-background-pane: #303446;
+    --code-secondary-pane: #232634;
+    --code-tertiary-pane: #292c3c;
+    --code-surface-element-dark: #414559;
+    --code-surface-element-neutral: #51576d;
+    --code-surface-element-light: #626880;
+    --code-overlay-dark: #737994;
+    --code-overlay-neutral: #838ba7;
+    --code-overlay-light: #949ccb;
+    --code-body: #c6d0f5;
+    --code-headline: #c6d0f5;
+    --code-sub-headline: #a5adce;
+    --code-sub-sub-headline: #b5bfe2;
+    --code-subtle: #838ba7;
+    --code-links: #8caaee;
+    --code-success: #a6d189;
+    --code-warnings: #e5c890;
+    --code-errors: #e78284;
+    --code-tags: #8caaee;
+    --code-selection-background: #949cbb;
+    --code-cursor: #f2d5cf;
+    --code-black: #51576d;
+    --code-red: #e78284;
+    --code-peach: #ef9f76;
+    --code-yellow: #e5c890;
+    --code-green: #a6d189;
+    --code-blue: #8caaee;
+    --code-lavender: #ca9ee6;
+    --code-pink: #f4b8e4;
+    --code-teal: #81c8be;
+    --code-rosewater: #f2d5cf;
+    --code-white: #a5adce;
+}
