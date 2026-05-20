@@ -4,7 +4,7 @@ title: Home
 ---
 
 ## About
-I am Lucy, a linguistics student specialising in semantics and a hobbyist in various areas. I have an undergraduate dissertation on *indexical shift*, a semantic phenomenon (linked below). I also write a lot of stories and rules: some of the things I've written are here! I can be found on [GitHub](https://github.com/sialiaaaaa) and [LinkedIn](https://www.linkedin.com/in/lucy-winters/) and emailed directly at lucy @ this domain.
+I am Lucy, a linguist specialising in semantics and a hobbyist in various areas. I have an undergraduate dissertation on *indexical shift*, a semantic phenomenon (linked below). I also write a lot of stories and rules: some of the things I've written are here! I can be found on [GitHub](https://github.com/sialiaaaaa) and [LinkedIn](https://www.linkedin.com/in/lucy-winters/) and emailed directly at lucy @ this domain.
 
 This website's theming takes inspiration from Chris DeLuca's [Base CSS to Style a Novel](https://www.chrisdeluca.me/2022/01/26/base-css-to.html) and the theming of [Georg Duffner's open source EB Garamond](http://www.georgduffner.at/ebgaramond/index.html), which is also this site's preferred font. The colour scheme used for code blocks is [Catppuccin Frappé](https://github.com/catppuccin/catppuccin/). Please feel free to email me with accessibility and style concerns; I am always pleased to receive feedback.
 
@@ -12,7 +12,7 @@ This website's theming takes inspiration from Chris DeLuca's [Base CSS to Style 
 
 Here are some of the things I've done; I go continually back and forth on what I'd like to host here, so it may be sparse—keep an eye out for any additional work of mine I decide to feature!
 
-- [sialia.dev](https://sialia.dev/) and its [source](https://github.com/sialiaaaaa/sialia-site), of course!
+- [sialia.dev](https://sialia.dev/) and its [source](https://github.com/sialiaaaaa/sialia.dev), of course!
 
 - [Overgrazed](https://github.com/sialiaaaaa/overgrazed/) My static site generator, which this site once but no longer uses.
 
