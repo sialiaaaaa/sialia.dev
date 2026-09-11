@@ -32,12 +32,6 @@
     src:  url('fonts/EBGaramond08-Italic.ttf') format('truetype'),
     url('fonts/EBGaramond08-Italic.woff') format('woff');
 }
-@font-face {
-    font-family: "EBGInit";
-    src:	url( fonts/EBGaramond-Initials.eot );
-    src:	url('fonts/EBGaramond-Initials.ttf') format('truetype'),
-    url('fonts/EBGaramond-Initials.woff') format('woff');
-}
 
 /* Global colour variables. */
 :root {
@@ -95,11 +89,13 @@ em { font-style: normal; font-family: "EBG12-It"; }
 /* Styling for headings. */
 h1 {
     font-family: "EBG12-It";
+    text-align: center;
 }
 h1, h2, h3, h4, h5, h6 {
     color: var(--headings);
     margin-top: 1em;
     margin-bottom: 0.5em;
+    text-align: center;
 }
 
 /* Styling for certain specific elements, like list items and links. */
@@ -111,6 +107,24 @@ li {
     margin-top: 0.25em;
 }
 h1 + ul, h2 + ul, h3 + ul, h4 + ul, h5 + ul, h6 + ul, p + ul { list-style-type: ""; }
+.column {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Responsive layout - when the screen is less than calc(min(65ch, round(down, 80%, 1ch))) wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: calc(min(65ch, round(down, 80%, 1ch)))) {
+    .column {
+        width: 100%;
+    }
+}
 
 /* Styling for footnotes */
 .footnote { font-family: "EBG08-Re"; }

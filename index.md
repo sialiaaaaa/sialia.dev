@@ -4,38 +4,25 @@ title: Home
 ---
 
 ## About
-I am Lucy, a linguist specialising in semantics and a hobbyist in various areas. I have an undergraduate dissertation on *indexical shift*, a semantic phenomenon (linked below). I also write a lot of stories and rules: some of the things I've written are here! I can be found on [GitHub](https://github.com/sialiaaaaa) and [LinkedIn](https://www.linkedin.com/in/lucy-winters/) and emailed directly at lucy @ this domain.
+I am Lucy, a linguist specialising in semantics and a hobbyist in various areas. I have an [undergraduate dissertation](/content/MonstrousPuzzlesShiftyOperators.pdf) on *indexical shift*, a semantic phenomenon, and I also write a lot of stories and rules. Some of the things I've written are here! I can be found on [GitHub](https://github.com/sialiaaaaa) and [LinkedIn](https://www.linkedin.com/in/lucy-winters/) and emailed directly at lucy @ this domain.
 
 This website's theming takes inspiration from Chris DeLuca's [Base CSS to Style a Novel](https://www.chrisdeluca.me/2022/01/26/base-css-to.html) and the theming of [Georg Duffner's open source EB Garamond](http://www.georgduffner.at/ebgaramond/index.html), which is also this site's preferred font. The colour scheme used for code blocks is [Catppuccin Frappé](https://github.com/catppuccin/catppuccin/). Please feel free to email me with accessibility and style concerns; I am always pleased to receive feedback.
 
-## Opera
+# * * *
 
-Here are some of the things I've done; I go continually back and forth on what I'd like to host here, so it may be sparse—keep an eye out for any additional work of mine I decide to feature!
+## Contents
 
-- [sialia.dev](https://sialia.dev/) and its [source](https://github.com/sialiaaaaa/sialia.dev), of course!
-
-- [Overgrazed](https://github.com/sialiaaaaa/overgrazed/), my static site generator, which this site once but no longer uses.
-
-- *[Monstrous Puzzles and Shifty Operators](/content/MonstrousPuzzlesShiftyOperators.pdf)*, my undergraduate dissertation at the University of Edinburgh.
-
-- [Garden Game](/content/GardenGame.ulx) (608.8 KB ULX), a little somewhat-unfinished demo for my interactive fiction game. Play with the link or a downloaded copy in any IF interpreter (I suggest [Parchment](https://iplayif.com/)).
-
-## Blog
-
-This is a reverse-chronological list of thoughts I have, in roughly real-time.
-
-{% for post in site.posts %}
-- [{{post.title}}]({{post.url}}), {{post.excerpt}}
-{% endfor %} 
-
-## External interests
-
-- The works and website of [Cosmo](https://cosmo.tardis.ac/).
-
-- [Inform](https://ganelson.github.io/inform-website/) and [interactive fiction](https://www.ifwiki.org/Main_Pag) at large. *[Counterfeit Monkey](https://ifdb.org/viewgame?id=aearuuxv83plclpl)* by [Emily Short](https://emshort.blog/) and *[Anchorhead](https://ifdb.org/viewgame?id=op0uw1gn1tjqmjt7)* by Michael Gentry are some of my favourite stories.
-
-- Video games by [FromSoftware](https://www.fromsoftware.jp/ww/), particularly devising strategies for challenges in *Dark Souls I* and *II*, *Bloodborne*, and *Elden Ring*.
-
-- Table-top role playing games: honourable mentions include *[Shadowdark](https://en.wikipedia.org/wiki/Shadowdark)*, 5th edition *[Dungeons & Dragons](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons)*, and 7th edition *[Call of Cthulhu](https://en.wikipedia.org/wiki/Call_of_Cthulhu_(role-playing_game))*.
-
--  The site was formerly hosted with [The Tardis Project](https://tardisproject.uk/), which I still endorse.
+<div class="row">
+  <div class="column">
+    <h3>Opera</h3>
+    <p>Things I've <a href="opera">done</a>, including <a href="/content/MonstrousPuzzlesShiftyOperators.pdf"><i>Monstrous Puzzles and Shifty Operators</i></a>, my undergraduate dissertation at the University of Edinburgh.</p>
+  </div>
+  <div class="column">
+    <h3>Blog</h3>
+    <p>Things I've <a href="blog">thought</a>, like <a href="/2026/06/11/recipe.html">how to make some pretty good fried rice</a>.</p>
+  </div>
+  <div class="column">
+    <h3>External interests</h3>
+    <p>Things I <a href="external">like</a>, such as my favourite works of <a href="https://www.ifwiki.org/Main_Page">interactive fiction</a>.</p>
+  </div>
+</div>
