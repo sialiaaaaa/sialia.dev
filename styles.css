@@ -40,7 +40,7 @@
     --body: #3f0000; /* #5a3c4f #32111d #443032 #3f0000*/
 
     --headings: #3f0000;
-    --accents: #3f0000;
+    --accents: #012626;
     --links: #004040;
 }
 
@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Styling for certain specific elements, like list items and links. */
 a { color: var(--links);  text-decoration: none; }
-a:hover { font-family: "EBG12-It"; }
+a:hover { color: var(--accents) }
 
 li {
     color: var(--body);
