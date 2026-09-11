@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: index
 title: Home
 ---
 
@@ -15,14 +15,14 @@ This website's theming takes inspiration from Chris DeLuca's [Base CSS to Style 
 <div class="row">
   <div class="column">
     <h3>Opera</h3>
-    <p>Things I've <a href="opera">done</a>, including <a href="/content/MonstrousPuzzlesShiftyOperators.pdf"><i>Monstrous Puzzles and Shifty Operators</i></a>, my undergraduate dissertation at the University of Edinburgh.</p>
+    <p>Things I've <a href="/partestres/opera">done</a>, including <a href="/content/MonstrousPuzzlesShiftyOperators.pdf"><i>Monstrous Puzzles and Shifty Operators</i></a>, my undergraduate dissertation at the University of Edinburgh.</p>
   </div>
   <div class="column">
     <h3>Blog</h3>
-    <p>Things I've <a href="blog">thought</a>, like <a href="/2026/06/11/recipe.html">how to make some pretty good fried rice</a>.</p>
+    <p>Things I've <a href="/partestres/blog">thought</a>, like <a href="/2026/06/11/recipe.html">how to make some pretty good fried rice</a>.</p>
   </div>
   <div class="column">
     <h3>External interests</h3>
-    <p>Things I <a href="external">like</a>, such as my favourite works of <a href="https://www.ifwiki.org/Main_Page">interactive fiction</a>.</p>
+    <p>Things I <a href="/partestres/external-interests">like</a>, such as my favourite works of <a href="https://www.ifwiki.org/Main_Page">interactive fiction</a>.</p>
   </div>
 </div>

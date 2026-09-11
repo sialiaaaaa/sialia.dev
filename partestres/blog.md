@@ -1,5 +1,6 @@
 ---
-layout: subpage
+layout: page
+name: blog
 ---
 
 ## Blog

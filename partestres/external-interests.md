@@ -1,5 +1,6 @@
 ---
-layout: subpage
+layout: page
+name: "external interests"
 ---
 
 ## External interests
