@@ -136,6 +136,9 @@ h1 + ul, h2 + ul, h3 + ul, h4 + ul, h5 + ul, h6 + ul, p + ul { list-style-type: 
 /* A few custom class styles. */
 .koraki { color: cornflowerblue; }
 .subtle { color: var(--subtle); }
+.smallcaps {
+    font-family: "EBG12-SC";
+}
 
 /* Code block changes */
 code:not(.codehilite code) { /* inline */
