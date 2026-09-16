@@ -38,7 +38,7 @@ Likewise, in *Homestuck* (2009), the character Vriska Homestuck decides to bring
 
 Lady Macbeth orchestrating the murders that lead to her husband's becoming king and Vriska orchestrating the creation of the antagonist of her series are functionally the same thing: someone's personality directly affects the creation of a stable time loop, independent of standard determinism. They actively make a choices which are not determined by the past state of the world.
 
-in Ted Chiang's 2007 novelette *The Merchant and the Alchemist's Gate*, the main character, a fabric merchant, meets an alchemist with a portal to the future (the titular 'alchemist's Gate'). The merchant says: 'Suppose you learn that you are alive twenty years from now. Then nothing could kill you in the next twenty years. You could then fight in battles without a care, because your survival is assured?'
+In Ted Chiang's 2007 novelette *The Merchant and the Alchemist's Gate*, the main character, a fabric merchant, meets an alchemist with a portal to the future (the titular 'alchemist's Gate'). The merchant says: 'Suppose you learn that you are alive twenty years from now. Then nothing could kill you in the next twenty years. You could then fight in battles without a care, because your survival is assured?'
 
 The alchemist responds, '...a man who would make use of such a guarantee would not find his older self alive when he first used the Gate.'
 

@@ -5,7 +5,7 @@ name: opera
 
 ## Opera
 
-Here are some of the things I've made or worked on; I go continually back and forth on what I'd like to host here, so keep an eye out for any additional work of mine I decide to feature!
+Here are some of the things I've made or worked on. I go continually back and forth on what I'd like to host here, so keep an eye out for any additional work of mine I decide to feature!
 
 - [sialia.dev](https://sialia.dev/) and its [source](https://github.com/sialiaaaaa/sialia.dev), of course!
 
